@@ -17,6 +17,7 @@ var React = require("react");
 var PropTypes = require("prop-types");
 var createReactClass = require("create-react-class");
 var ReactNative = require("react-native");
+var ReactNativeWebView = require("react-native-webview");
 var invariant = require("invariant");
 var keyMirror = require("keymirror");
 var resolveAssetSource = require("react-native/Libraries/Image/resolveAssetSource");
@@ -32,6 +33,7 @@ var {
   DeviceEventEmitter,
   NativeModules: { WebViewBridgeManager }
 } = ReactNative;
+var { WebView } = ReactNativeWebView;
 
 var RCT_WEBVIEWBRIDGE_REF = "webviewbridge";
 
