@@ -33,8 +33,8 @@
   },
   "main": "webview-bridge",
   "dependencies": {
-    "react-native-webview": "*",
     "invariant": "2.2.0",
-    "keymirror": "0.1.1"
+    "keymirror": "0.1.1",
+    "react-native-webview": "*"
   }
 }

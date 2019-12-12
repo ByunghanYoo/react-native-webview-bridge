@@ -28,7 +28,6 @@ var {
   StyleSheet,
   Text,
   View,
-  WebView,
   requireNativeComponent,
   UIManager,
   NativeModules: { WebViewBridgeManager }
